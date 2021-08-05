@@ -1,11 +1,43 @@
+* {
+    font-family: 'Roboto Condensed';
+  }
+  body {
+    background-color: #37474f;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    background-color: var(--white-color);
+  }
+  
+  :root {
+    /* Color */
+    --white-color: #cfcfcf;
+    --black-color: #212121;
+    --orange-color: #f9a825;
+    --dark-blue-grey-color: #1c313a;
+    --light-blue-grey-color: #718792;
+  
+    /* Font Size */
+    --font-large: 25px;
+    --font-medium: 17px;
+    --font-small: 12px;
+    --font-micro: 10px;
+  };
+  
+
 .titleBox {
+    display: flex;
+}
+h1 {
     display: flex;
     justify-content: center;
     position: relative;
     top: 100px;
-}
-h1 {
     font-size: 50px;
+    color: var(--white-color);
 }
 
 .inputBox {
@@ -17,6 +49,7 @@ h1 {
 
 input {
     width: 50%;
+    height: 25px;
 }
 
 button {
